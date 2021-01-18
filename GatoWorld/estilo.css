@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#titulo {
+	display: inline;
+	}
+header, section, nav, article {
+	display: block;
+}
+header h1 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 50px
+}
+body {
+	text-align: center;
+	background: #ffe7cc;
+}
+.agrupar {
+	width: 1280px;
+	margin: 0px auto;
+	background: #ffccb7;
+	border: 10px dashed #ffe7cc;
+}
+.cabecera {
+	background: #ffccb7;
+	padding: 20px;
+	border-radius: 10px
+}
+#huella {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	width: 300px;
+	height: 50px;
+
+}
+.cabecera h1 {
+	color: #f66;
+	text-shadow: 0px 1px 4px;
+}
+.menu {
+	background: #ffb499;
+	padding: 5px 15px;
+	text-align: left;
+	border: 10px dashed #ffccb7;
+}
+.menu li {
+	list-style: none;
+	padding: 5px;
+	font: bold 16px Arial;
+	display: inline-block;
+}
+.seccion p {
+	font-family: 'Fredoka One', cursive;
+	font-weight: normal;
+	font-size: 20px;
+	padding: 20px;
+}
+img{
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+}
+.siguiente {
+	margin: 20px;
+	margin-bottom: 45px;
+	display: inline-block;
+}
+.anterior {
+	margin: 20px;
+	margin-bottom: 45px;
+	display: inline-block;
+}
+.pie {
+	clear: both;
+	padding: 7px;
+	background: #ffb499;
+	color: black;
+	font-family: 'Fredoka One', cursive;
+	font-size: 19px;
+	border: 10px dashed #ffccb7;
+}
